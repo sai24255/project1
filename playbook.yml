@@ -1,0 +1,9 @@
+---
+- name: "first play boss"
+  hosts: servers
+  become: yes
+  tasks:
+    - name: "to install tree"
+      apt:
+        name: tree
+        state: present
