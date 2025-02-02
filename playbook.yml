@@ -7,3 +7,7 @@
       apt:
         name: tree
         state: present
+    - name: "to install ifconfig"
+      apt:
+        name: net-tools
+        state: present
